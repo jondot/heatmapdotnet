@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeatMap.NET", "HeatMap.NET\HeatMap.NET.csproj", "{5E41DFFB-FAEA-49BB-8587-943330C70692}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeatMapTester", "HeatMapTester\HeatMapTester.csproj", "{EB8255A1-D309-444B-9E6D-53E017BDC72E}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E41DFFB-FAEA-49BB-8587-943330C70692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E41DFFB-FAEA-49BB-8587-943330C70692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E41DFFB-FAEA-49BB-8587-943330C70692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E41DFFB-FAEA-49BB-8587-943330C70692}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8255A1-D309-444B-9E6D-53E017BDC72E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8255A1-D309-444B-9E6D-53E017BDC72E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8255A1-D309-444B-9E6D-53E017BDC72E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8255A1-D309-444B-9E6D-53E017BDC72E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
